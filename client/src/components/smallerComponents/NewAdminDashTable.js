@@ -130,8 +130,8 @@ export default function RecipeReviewCard() {
       </TableContainer>
     </Paper>
         <Typography variant="body2" color="textSecondary" component="p">
-        If there is a discrepancy with your schedule, please speak with your
-          leadership team.
+        If there is a discrepancy with your pay, please contact your
+        manager.
         </Typography>
       </CardContent>
 
