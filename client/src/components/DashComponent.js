@@ -8,6 +8,7 @@ import RequestsSnap from "./smallerComponents/RequestsSnap";
 import Grid from "@material-ui/core/Grid";
 import DashEmployeeotm from "./smallerComponents/DashEmployeeotm";
 import NewAdminDashTable from "./smallerComponents/NewAdminDashTable";
+import DashNewsCard from "./smallerComponents/DashNewsCard";
 
 //this is the main dashboard for employees
 
@@ -51,28 +52,33 @@ export default function DashComponent(props) {
         spacing={10}
         direction="row"
       >
-        <Grid item xs={8}>
+        <Grid item sm={12}>
           <SchedSnap id={props.match.params.id} />
         </Grid>
 
-        <Grid item md={4}>
+        <Grid item sm={3} className={classes.container} direction="row">
           <DashEmployeeotm />
+          
+        </Grid>
+        <Grid item sm={3} className={classes.container} direction="row">
+         
+          <DashNewsCard/>
         </Grid>
       </Grid>
       <Grid
         container
-        style={{ marginTop: "-8%" }}
+        style={{ marginTop: "8%" }}
         className={classes.container}
         spacing={10}
         direction="row"
       >
-        <Grid item xs={8}>
+        <Grid item sm={12}>
           <RequestsSnap id={props.match.params.id} />
         </Grid>
       </Grid>
 
       <Grid container className={classes.container} spacing={2} direction="row">
-        <Grid item md={12}>
+        <Grid item sm={12}>
           <NewAdminDashTable />
         </Grid>
       </Grid>
