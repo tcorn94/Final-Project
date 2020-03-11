@@ -105,7 +105,7 @@ export default function CreateSchedule(props) {
   }
 
   return (
-    <div>
+    <div className="col-sm-4 col-md-3">
       <Adminside />
       <div style={{ width: "60%", margin: "10% auto" }}>
         <Button

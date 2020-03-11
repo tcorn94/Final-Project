@@ -69,7 +69,7 @@ export default function CreateEmployee() {
   };
 
   return (
-    <div>
+    <div className="col-xs-6 col-sm-4 col-md-3">
       <Adminside />
       <div
         style={{

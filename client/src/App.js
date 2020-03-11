@@ -26,7 +26,7 @@ import CreateNews from "./components/CreateNews";
 //routes and rendering of all major pages
 function App() {
   return (
-    <div>
+    <div className="col-xs-6 col-sm-4 col-md-3">
       <Router>
         <Switch>
           <Route exact path="/" component={SignInSide} />

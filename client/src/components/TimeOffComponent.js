@@ -94,7 +94,7 @@ export default function TimeOff(props) {
   }, []);
 
   return (
-    <div>
+    <div className="col-xs-6 col-sm-4 col-md-3">
       <Sidebar id={props.match.params.id} />
       <div className={classes.formDecor}>
         <Button component={Link} to="/dashboard" style={{ color: "white" }}>
