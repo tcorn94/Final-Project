@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 
 // bg color #182231  side color #3F51B5
 
-const drawerWidth = 240;
+const drawerWidth = "15%";
 
 const useStyles = makeStyles(theme => ({
   root: {

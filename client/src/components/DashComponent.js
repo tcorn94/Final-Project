@@ -42,7 +42,7 @@ export default function DashComponent(props) {
     }
   }, []);
   return (
-    <div>
+    <div className="col-xs-6 col-sm-4 col-md-3">
       <Sidebar id={props.match.params.id} />
 
       <Grid

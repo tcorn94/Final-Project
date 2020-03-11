@@ -41,7 +41,7 @@ export default function DashComponent(props) {
     }
   });
   return (
-    <div>
+    <div className="col-sm-4 col-md-3">
       <Adminside id={props.match.params.id} />
 
       <Grid

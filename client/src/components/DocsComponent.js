@@ -38,7 +38,7 @@ export default function Documents(props) {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className="col-xs-6 col-sm-4 col-md-3">
       <Sidebar id={props.match.params.id} />
       <div style={{ width: "60%", margin: "0 auto" }}>
         <Button component={Link} to="/dashboard" style={{ color: "white" }}>

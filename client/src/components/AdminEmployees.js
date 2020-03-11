@@ -29,7 +29,7 @@ export default function DenseTable() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className="col-xs-6 col-sm-4 col-md-3">
       <Adminside />
       <div style={{ width: "60%", margin: "10% auto" }}>
         <Button component={Link} to="/admin" style={{ color: "white" }}>
