@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
     maxWidth: "100%",
     margin: "0 auto",
     marginBottom: "3%",
-    marginTop: "3%"
+    marginTop: "2%"
   },
   media: {
     height: 0,

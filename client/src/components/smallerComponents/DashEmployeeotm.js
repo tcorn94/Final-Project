@@ -14,7 +14,7 @@ import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
 const useStyles = makeStyles(theme => ({
   root: {
     maxWidth: 345,
-    height: "125%"
+    height: "auto"
   },
   media: {
     height: 0,

@@ -14,15 +14,15 @@ import DashNewsCard from "./smallerComponents/DashNewsCard";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: "flex",
+    display: "block",
     flexWrap: "wrap",
     "& > *": {
       width: theme.spacing(18),
       height: theme.spacing(18),
-      margin: "35px auto",
+      margin: "2% auto",
       backgroundColor: "white"
     },
-    width: "90%"
+    width: "70%"
   },
 
   container: {
@@ -30,7 +30,8 @@ const useStyles = makeStyles(theme => ({
     height: "auto",
     margin: "0 auto",
     marginTop: "3%",
-    marginLeft: "20%"
+    marginBottom: "2%"
+    
   }
 }));
 
@@ -49,27 +50,29 @@ export default function DashComponent(props) {
       <Grid
         container
         className={classes.container}
-        spacing={10}
+        spacing={5}
         direction="row"
       >
         <Grid item sm={12}>
           <SchedSnap id={props.match.params.id} />
         </Grid>
 
-        <Grid item sm={3} className={classes.container} direction="row">
+        
+
+        <Grid item sm={4} className={classes.container} direction="row">
           <DashEmployeeotm />
           
         </Grid>
-        <Grid item sm={3} className={classes.container} direction="row">
+        <Grid item sm={4} className={classes.container} direction="row">
          
           <DashNewsCard/>
         </Grid>
       </Grid>
       <Grid
         container
-        style={{ marginTop: "8%" }}
+        style={{ marginTop: "5%" }}
         className={classes.container}
-        spacing={10}
+        spacing={5}
         direction="row"
       >
         <Grid item sm={12}>
@@ -77,7 +80,7 @@ export default function DashComponent(props) {
         </Grid>
       </Grid>
 
-      <Grid container className={classes.container} spacing={2} direction="row">
+      <Grid container className={classes.container} spacing={5} direction="row">
         <Grid item sm={12}>
           <NewAdminDashTable />
         </Grid>
