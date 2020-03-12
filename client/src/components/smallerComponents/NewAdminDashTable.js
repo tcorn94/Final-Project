@@ -76,7 +76,7 @@ const useStyles = makeStyles(theme => ({
     maxHeight: 440,
     borderRadius: "5px",
     textAlign: "center",
-    margin: "15px"
+    margin: "3%"
   }
 }));
 

@@ -14,7 +14,7 @@ import NotificationsIcon from "@material-ui/icons/Notifications";
 const useStyles = makeStyles(theme => ({
   root: {
     maxWidth: 345,
-    height: "120%"
+    height: "auto"
   },
   media: {
     height: 0,
